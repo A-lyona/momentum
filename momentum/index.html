@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>momentum</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+        <link rel="icon" href="assets/img/100.png">
+        <link rel="stylesheet" href="css/owfont-regular.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="momentum_header">
+            <div class="momentum_player">
+                <audio src="assets/sounds/Aqua Caelestis.mp3"></audio>
+                <div class="momentum_player_controls">
+                    <button class="momentum_play_prev momentum_player_icon"></button>
+                    <button class="momentum_play momentum_player_icon button_player"></button>
+                    <button class="momentum_play_next momentum_player_icon"></button>
+                </div>
+                <ul class="momentum_play_list">
+                    <li class="momentum_play_item" data-audio="0">Aqua Caelestis</li>
+                    <li class="momentum_play_item" data-audio="1">River Flows In You</li>
+                    <li class="momentum_play_item" data-audio="2">Summer Wind</li>
+                    <li class="momentum_play_item" data-audio="3">Ennio Morricone</li>
+                </ul>
+            </div>
+            <div class="momentum_weather">
+                <input type="text" class="weather_city" value="" placeholder="Minsk">
+                <i class="weather_icon owf"></i>
+                <div class="weather_container">
+                <span class="weather_temperature"></span>
+                <span class="weather_description"></span>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main_slider_block">
+                <button class="main_slide_left main_slider_icon"></button>
+                <button class="main_slide_right main_slider_icon"></button>
+            </div>
+            <time class="main_time">21:21:21</time>
+            <date class="main_date">Thursday, October 14</date>
+            <div class="main_greeting_block">
+                <span class="main_greeting_title">Good day</span>
+                <input placeholder="[Enter Name]" type="text" class="main_name">
+            </div>
+        </main>
+        <footer class="footer">
+            <button class="footer_renew"></button>
+            <div class="footer_quote_block">
+                <div class="footer_github">
+                    <p>&copy;&nbsp;&nbsp;2021</p>
+                    <p><a class="footer_github_name" href="https://github.com/A-lyona" target="_blank">A-lyona</a></p>
+                </div>
+                <div>
+                    <div class="footer_quote_title">"Life is far too important a thing ever to talk seriously about."</div>
+                    <div class="footer_author_title">Oscar Wilde</div>
+                </div>
+                <div class="footer_rs">
+                    <a href="https://rs.school/js/" target="_blank" class="footer_rs"><img src="assets/img/07.jpg"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
